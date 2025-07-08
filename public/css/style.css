@@ -1,0 +1,32 @@
+ .hero {
+      position: relative;
+      background: url('../img/download.jpg') center center / cover no-repeat;
+      height: 100vh;
+      color: white;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 40%;
+      height: 100%;
+      background: linear-gradient(to left, rgba(200, 0, 200, 0.7), transparent);
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+      padding: 100px 50px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .hero small {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
