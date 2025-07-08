@@ -7,7 +7,7 @@ class Profile extends BaseController
  
  public function visimisi()
     {
-        return view('profile/visi_misi', [
+        return view('profile/v_visi_misi', [
             'title' => 'Visi Misi',
             'showHero' => false //
         ]);

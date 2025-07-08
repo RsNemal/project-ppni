@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css')?>">
     <link rel="stylesheet" href="<?=base_url('css/style.css')?>">
-    <title>Document</title>
+    <title><?= $title ?></title>
 </head>
 <body>
     
-  <?= view('partials/navbar') ?>
+  <?= view('partials/v_navbar') ?>
 
 
  
   <?php if (!empty($showHero) && $showHero === true): ?>
 <section class="hero">
   <div class="hero-overlay"></div>
-  <div class="container hero-text">
+  <div class="container hero-text text-dark">
     <small>Selamat Datang di</small>
-    <h1>UPT RSUD NENE<br>MALLOMO</h1>
+    <h1>PPNI RSUD NENE<br>MALLOMO</h1>
   </div>
 </section>
 <?php endif; ?>

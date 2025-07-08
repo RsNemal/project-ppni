@@ -11,6 +11,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="<?= base_url('/') ?>">Home</a>
         </li>
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Profil
@@ -23,6 +24,7 @@
             <li><a class="dropdown-item" href="<?= base_url('sejarah') ?>">Sejarah</a></li>
           </ul>
         </li>
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Pelayanan
@@ -35,6 +37,7 @@
             <li><a class="dropdown-item" href="#">Pengurusan SKP</a></li>
           </ul>
         </li>
+        <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
        <li class="nav-item">
           <a class="nav-link" href="#">Dokumentasi</a>
         </li>
