@@ -1,5 +1,5 @@
 <section id="navbar">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-warning-subtle" >
   <div class="container">
     <a class="navbar-brand" href="#">PPNI</a>
 
@@ -17,11 +17,11 @@
             Profil
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="<?= base_url('visi-misi') ?>">Visi Misi</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('profile/visi-misi') ?>">Visi Misi</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="<?= base_url('strukturOrganisasi') ?>">Struktur Organisasi</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('profile/struktur-organisasi') ?>">Struktur Organisasi</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="<?= base_url('sejarah') ?>">Sejarah</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('profile/sejarah') ?>">Sejarah</a></li>
           </ul>
         </li>
         <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -30,11 +30,11 @@
            Pelayanan
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">pengursan KA</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('pelayanan/pengurusan-ka') ?>">pengursan KA</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Pengurusan SIPP</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('pelayanan/pengurusan-sipp') ?>">Pengurusan SIPP</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Pengurusan SKP</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('pelayanan/pengurusan-skp') ?>">Pengurusan SKP</a></li>
           </ul>
         </li>
         <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------- -->
