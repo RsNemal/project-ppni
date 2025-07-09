@@ -7,6 +7,19 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->get('/visi-misi', 'Profile::visimisi');
-$routes->get('/strukturOrganisasi', 'Profile::strukturOrganisasi');
-$routes->get('/sejarah', 'Profile::sejarah');
+
+$routes->group('profile', function($routes) {
+    $routes->get('visi-misi', 'Profile::visimisi');
+    $routes->get('struktur-organisasi', 'Profile::strukturOrganisasi');
+    $routes->get('sejarah', 'Profile::sejarah');
+});
+
+
+
+$routes->group('pelayanan', function($routes) {
+    $routes->get('pengurusan-ka', 'Pelayanan::pengurusan_ka');
+    $routes->get('pengurusan-sipp', 'Pelayanan::pengurusan_sipp');
+    $routes->get('pengurusan-skp', 'Pelayanan::pengurusan_skp');
+});
+
+
