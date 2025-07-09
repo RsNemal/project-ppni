@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css')?>">
+    <link rel="stylesheet" href="<?= base_url('boostrap/css/bootstrap.min.css')?>">
     <link rel="stylesheet" href="<?=base_url('css/style.css')?>">
     <title><?= $title ?></title>
 </head>
@@ -28,6 +28,27 @@
     <?= $this->renderSection('content') ?>
   </div>
 
-<script src="<?= base_url('js/bootstrap.bundle.min.js')?>"></script>
+<!-- Tombol Scroll ke Atas -->
+<button onclick="scrollToTop()" id="scrollTopBtn" class="btn btn-primary rounded-circle shadow position-fixed bottom-0 end-0 m-4" style="display:none; z-index: 999;">
+  ↑ 
+</button>
+   <?= view('partials/v_footer') ?>
+<script src="<?= base_url('boostrap/js/bootstrap.bundle.min.js')?>"></script>
+<script>
+   // Tampilkan tombol saat scroll lebih dari 300px
+  window.onscroll = function () {
+    const btn = document.getElementById("scrollTopBtn");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Scroll ke atas ketika tombol diklik
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 </body>
 </html>
