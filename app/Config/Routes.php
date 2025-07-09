@@ -22,4 +22,11 @@ $routes->group('pelayanan', function($routes) {
     $routes->get('pengurusan-skp', 'Pelayanan::pengurusan_skp');
 });
 
+$routes->group('dokumentasi', function($routes) {
+    $routes->get('dokumentasi', 'Dokumentasi::dokumentasi');
+
+});
+
+
+
 
