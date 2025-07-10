@@ -18,7 +18,7 @@ $gambarList = [
             <div class="card border-0 shadow-sm h-100">
                 <a href="<?= base_url('img/dokumentasi/' . $gambar) ?>" target="_blank" >
                     <img src="<?= base_url('img/dokumentasi/' . $gambar) ?>" class="card-img-top img-fluid rounded"
-                        alt="Dokumentasi <?= $index + 1 ?>" style="height: 200px; object-fit: cover;">
+                        alt="Dokumentasi <?= $index + 1 ?>" style="height: 200px; object-fit: cover;" >
                 </a>
             </div>
         </div>
