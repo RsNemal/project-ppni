@@ -1,7 +1,113 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
-<h1>Struktur Organisasi PPNI</h1>
-<p>Ini adalah halaman Struktur Rumah dari RSUD Nene Mallomo.</p>
+<div class="container my-5">
+    <h2 class="text-center mb-5">Susunan Organisasi</h2>
+
+    <!-- Susunan Inti -->
+    <div class="p-4 mb-5 rounded bg-light">
+        <h5 class="mb-3 text-primary">Struktur Inti Organisasi</h5>
+        <ul class="list-unstyled">
+            <li><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> Hj. Rustini, S.Kep, Ns, M.M</li>
+            <li><i class="bi bi-person-badge me-2"></i><strong>Sekretaris:</strong> Haeriaty, S.ST, Ns</li>
+            <li><i class="bi bi-person-badge me-2"></i><strong>Bendahara:</strong> Nurlinda Nurdin, S.ST, Ns</li>
+        </ul>
+    </div>
+
+    <!-- DIVISI 1 -->
+    <div class="p-4 mb-4 rounded bg-info-subtle">
+        <h5 class="mb-3 text-info">1. Divisi Organisasi dan Kaderisasi</h5>
+        <p><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> Syamsul Bahri, S.ST, Ns</p>
+        <p><strong><i class="bi bi-people-fill me-2"></i>Anggota:</strong></p>
+        <ul>
+            <li><i class="bi bi-person me-1"></i> Melyana, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Andriana, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Rustan, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Hj. Hanisa Dewi Putri, S.Kep, Ns</li>
+        </ul>
+    </div>
+
+    <!-- DIVISI 2 -->
+    <div class="p-4 mb-4 rounded bg-success-subtle">
+        <h5 class="mb-3 text-success">2. Divisi Hukum dan Pemberdayaan Politik</h5>
+        <p><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> Mulyadi, S.ST, Ns</p>
+        <p><strong><i class="bi bi-people-fill me-2"></i>Anggota:</strong></p>
+        <ul>
+            <li><i class="bi bi-person me-1"></i> Asriani, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Hastuti Hamzah, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Arnis, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Muh. Nur Cahyadi, S.Kpe, Ns</li>
+        </ul>
+    </div>
+
+    <!-- DIVISI 3 -->
+    <div class="p-4 mb-4 rounded bg-warning-subtle">
+        <h5 class="mb-3 text-warning">3. Divisi Pendidikan dan Pelatihan</h5>
+        <p><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> Nur Aisyah, S.ST, Ns, M.M</p>
+        <p><strong><i class="bi bi-people-fill me-2"></i>Anggota:</strong></p>
+        <ul>
+            <li><i class="bi bi-person me-1"></i> Ilyas Agus, S.Kep, Ns, M.M</li>
+            <li><i class="bi bi-person me-1"></i> Andi St. Nurhasanah, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Hj. Andriani, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Dian Ekajayani Muin HS, S.Kep, Ns</li>
+        </ul>
+    </div>
+
+    <!-- DIVISI 4 -->
+    <div class="p-4 mb-4 rounded bg-danger-subtle">
+        <h5 class="mb-3 text-danger">4. Divisi Penelitian & Sistem Informasi dan Komunikasi</h5>
+        <p><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> Sumarni Baharuddin, S.Kep, Ns, M.M</p>
+        <p><strong><i class="bi bi-people-fill me-2"></i>Anggota:</strong></p>
+        <ul>
+            <li><i class="bi bi-person me-1"></i> Umiati, S.ST, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Rahmawati Iskandar, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Sutriana Jalal, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> M. Aryo, S.Kep, Ns</li>
+        </ul>
+    </div>
+
+    <!-- DIVISI 5 -->
+    <div class="p-4 mb-4 rounded bg-primary-subtle">
+        <h5 class="mb-3 text-primary">5. Divisi Hubungan Antar Lembaga</h5>
+        <p><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> Hj. Rostini Mappangerang, S.Kep, Ns</p>
+        <p><strong><i class="bi bi-people-fill me-2"></i>Anggota:</strong></p>
+        <ul>
+            <li><i class="bi bi-person me-1"></i> Fadjaruddin Ilyas, S.Kep, Ns, M.M</li>
+            <li><i class="bi bi-person me-1"></i> Paccaula Tangka, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Sunarto, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Henrianty, S.Kep, Ns</li>
+        </ul>
+    </div>
+
+    <!-- DIVISI 6 -->
+    <div class="p-4 mb-4 rounded bg-secondary-subtle">
+        <h5 class="mb-3 text-secondary">6. Divisi Pelayanan</h5>
+        <p><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> H. Mansyur M, S.Kep, Ns</p>
+        <p><strong><i class="bi bi-people-fill me-2"></i>Anggota:</strong></p>
+        <ul>
+            <li><i class="bi bi-person me-1"></i> Syahruni, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Afri Nurmiyanti, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Harpina Bahar, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Rukmini, S.Kep, Ns</li>
+        </ul>
+    </div>
+
+    <!-- DIVISI 7 -->
+    <div class="p-4 mb-4 rounded bg-dark text-white">
+        <h5 class="mb-3 text-light">7. Divisi Kesejahteraan</h5>
+        <p><i class="bi bi-person-badge me-2"></i><strong>Ketua:</strong> Haerawati Ade, S.Kep, Ns</p>
+        <p><strong><i class="bi bi-people-fill me-2"></i>Anggota:</strong></p>
+        <ul>
+            <li><i class="bi bi-person me-1"></i> Hj. Gusnani Latief, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Hj. Rosni, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Hj. Rahmiah Arsyad, S.Kep, Ns</li>
+            <li><i class="bi bi-person me-1"></i> Irma Irawati Nurdin, S.Kep, Ns</li>
+        </ul>
+    </div>
+</div>
+
 
 <?= $this->endSection() ?>
+
+
+<!-- tampilan ke 2 -->

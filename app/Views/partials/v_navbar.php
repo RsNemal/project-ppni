@@ -42,7 +42,7 @@
                             Pelayanan
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="<?= base_url('pelayanan/pengurusan-ka') ?>">pengursan
+                            <li><a class="dropdown-item" href="<?= base_url('pelayanan/pengurusan-kta') ?>">pengursan
                                     KTA</a></li>
                             <li>
                                 <hr class="dropdown-divider">
