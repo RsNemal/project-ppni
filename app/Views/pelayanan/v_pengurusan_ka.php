@@ -1,7 +1,7 @@
 <?= $this->extend('layout') ?>
 
 <?= $this->section('content') ?>
-<section id="pengurusan-kta" class="container my-5">
+<section id="pengurusan-kta" class="container my-5" data-aos="fade-up" data-aos-duration="1000">
     <div class="card shadow-sm">
         <div class="card-header bg-primary text-white text-center">
             <h1 class="m-0">PENGURUSAN KTA</h1>
