@@ -7,31 +7,25 @@
     <link rel="stylesheet" href="<?= base_url('boostrap/css/bootstrap.min.css')?>">
     <link rel="stylesheet" href="<?=base_url('css/style.css')?>">
     <!-- AOS CSS -->
-<link rel="stylesheet" href="<?= base_url('aos-master/dist/aos.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('aos-master/dist/aos.css') ?>">
     <title><?= $title ?></title>
 </head>
 
 <body>
 
     <?= view('partials/v_navbar') ?>
-
-
-
     <?php if (!empty($showHero) && $showHero === true): ?>
     <section class="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-text text-dark">
+        <div class="container hero-text">
             <small>Selamat Datang di</small>
             <h1>PPNI RSUD NENE<br>MALLOMO</h1>
         </div>
     </section>
     <?php endif; ?>
-
     <!-- ISI KONTEN -->
     <div class="container mt-5">
         <?= $this->renderSection('content') ?>
     </div>
-
     <!-- Tombol Scroll ke Atas -->
     <button onclick="scrollToTop()" id="scrollTopBtn"
         class="btn btn-primary rounded-circle shadow position-fixed bottom-0 end-0 m-4"
@@ -41,7 +35,7 @@
     <?= view('partials/v_footer') ?>
     <script src="<?= base_url('boostrap/js/bootstrap.bundle.min.js')?>"></script>
     <!-- AOS JS -->
- <script src="<?= base_url('aos-master/dist/aos.js') ?>"></script>
+    <script src="<?= base_url('aos-master/dist/aos.js') ?>"></script>
     <script>
     AOS.init();
     </script>
