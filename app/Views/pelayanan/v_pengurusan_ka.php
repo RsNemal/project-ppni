@@ -60,6 +60,14 @@
                     <li class="list-group-item">Waktu pencetakan sekitar 10 hari kerja.</li>
                 </ul>
             </div>
+
+            <!-- Penting Diperhatikan -->
+        <h5 class="text-danger fw-semibold mt-4">⚠️ Penting untuk Diperhatikan</h5>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">SIPP berlaku 5 tahun dan dapat diperpanjang.</li>
+                <li class="list-group-item">Perawat hanya boleh memiliki maksimal 2 SIPP.</li>
+                <li class="list-group-item">Persyaratan bisa berbeda tergantung kebijakan masing-masing daerah.</li>
+            </ul>
         </div>
     </div>
 </section>
