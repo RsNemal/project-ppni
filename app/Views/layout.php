@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= base_url('boostrap/css/bootstrap.min.css')?>">
     <link rel="stylesheet" href="<?=base_url('css/style.css')?>">
+    <!-- AOS CSS -->
+<link rel="stylesheet" href="<?= base_url('aos-master/dist/aos.css') ?>">
     <title><?= $title ?></title>
 </head>
 
@@ -38,6 +40,11 @@
     </button>
     <?= view('partials/v_footer') ?>
     <script src="<?= base_url('boostrap/js/bootstrap.bundle.min.js')?>"></script>
+    <!-- AOS JS -->
+ <script src="<?= base_url('aos-master/dist/aos.js') ?>"></script>
+    <script>
+    AOS.init();
+    </script>
     <script>
     // Tampilkan tombol saat scroll lebih dari 300px
     window.onscroll = function() {

@@ -1,7 +1,7 @@
 <?= $this->extend('layout') ?>
 <?= $this->section('content') ?>
 
-<div class="container my-5">
+<div class="container my-5" data-aos="fade-down" data-aos-duration="1000">
     <h2 class="text-center mb-5">Susunan Organisasi</h2>
 
     <!-- Susunan Inti -->
