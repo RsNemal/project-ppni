@@ -10,7 +10,7 @@ class Pelayanan extends BaseController
     public function pengurusan_ka()
     {
       return view('pelayanan/v_pengurusan_ka', [
-            'title' => 'Pengurusan KA',
+            'title' => 'Pengurusan KTA',
             'showHero' => false //
         ]);
     }

@@ -45,3 +45,17 @@
   .text-justify {
   text-align: justify;
 }
+
+
+#pengurusan-kta h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#pengurusan-kta ul {
+    margin-bottom: 20px;
+}
+
+#pengurusan-kta li::marker {
+    color: #d8d2169a; /* Bootstrap primary */
+}

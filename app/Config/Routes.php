@@ -17,7 +17,7 @@ $routes->group('profile', function($routes) {
 
 
 $routes->group('pelayanan', function($routes) {
-    $routes->get('pengurusan-ka', 'Pelayanan::pengurusan_ka');
+    $routes->get('pengurusan-kta', 'Pelayanan::pengurusan_ka');
     $routes->get('pengurusan-sipp', 'Pelayanan::pengurusan_sipp');
     $routes->get('pengurusan-skp', 'Pelayanan::pengurusan_skp');
 });
