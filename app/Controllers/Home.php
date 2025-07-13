@@ -6,17 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('layout', [
+        // Tampilkan halaman beranda utama dengan hero
+        return view('partials/v_home', [
             'title' => 'Beranda',
             'showHero' => true
         ]);
     }
-
-    //     public function home()
-    // {
-    //     return view('home', [
-    //         'title' => 'Beranda'
-    //     ]);
-    // }
-
 }
